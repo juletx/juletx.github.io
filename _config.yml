@@ -47,70 +47,128 @@ social_media:
   # youtube: your_username
 
 topics:
-  - name: Java
-    web_url: https://github.com/topics/java
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/java/java-original-wordmark.svg
+  - category: Programming Languages
+    items:
+      - name: Python
+        web_url: https://github.com/topics/python
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg
+      - name: R
+        web_url: https://github.com/topics/r
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg
+      - name: Java
+        web_url: https://github.com/topics/java
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg
+      - name: JavaScript
+        web_url: https://github.com/topics/javascript
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg
+      - name: PHP
+        web_url: https://github.com/topics/php
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg
+      - name: C
+        web_url: https://github.com/topics/c
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg
 
-  - name: JavaScript
-    web_url: https://github.com/topics/javascript
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/javascript/javascript-original.svg
+  - category: Web Development
+    items:
+      - name: Bootstrap
+        web_url: https://github.com/topics/bootstrap
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain.svg
+      - name: Tailwind CSS
+        web_url: https://github.com/topics/tailwindcss
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg
+      - name: Hugo
+        web_url: https://github.com/topics/hugo
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hugo/hugo-original.svg
+      - name: Alpine.js
+        web_url: https://github.com/topics/alpinejs
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/alpinejs/alpinejs-original.svg
+      - name: jQuery
+        web_url: https://github.com/topics/jquery
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg
+      - name: Netlify
+        web_url: https://github.com/topics/netlify
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg
 
-  - name: PHP
-    web_url: https://github.com/topics/php
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/php/php-original.svg
+  - category: Machine Learning
+    items:
+      - name: Scikit-Learn
+        web_url: https://github.com/topics/scikit-learn
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg
+      - name: TensorFlow
+        web_url: https://github.com/topics/tensorflow
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg
+      - name: PyTorch
+        web_url: https://github.com/topics/pytorch
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg
+      - name: Keras
+        web_url: https://github.com/topics/keras
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg
+      - name: Kaggle
+        web_url: https://github.com/topics/kaggle
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg
+      - name: Hugging Face
+        web_url: https://github.com/topics/huggingface
+        image_url: https://huggingface.co/front/assets/huggingface_logo.svg
 
-  - name: Python
-    web_url: https://github.com/topics/python
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/python/python-original.svg
+  - category: Data
+    items:
+      - name: MySQL
+        web_url: https://github.com/topics/mysql
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg
+      - name: SQLite
+        web_url: https://github.com/topics/sqlite
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg
+      - name: PostgreSQL
+        web_url: https://github.com/topics/postgresql
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg
+      - name: XML
+        web_url: https://github.com/topics/xml
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg
+      - name: JSON
+        web_url: https://github.com/topics/json
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg
+      - name: YAML
+        web_url: https://github.com/topics/yaml
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yaml/yaml-original.svg
 
-  - name: SQL
-    web_url: https://github.com/topics/sql
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png
+  - category: Editors & Source Control
+    items:
+      - name: VS Code
+        web_url: https://github.com/topics/vscode
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg
+      - name: LaTeX
+        web_url: https://github.com/topics/latex
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg
+      - name: Jupyter
+        web_url: https://github.com/topics/jupyter
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg
+      - name: Git
+        web_url: https://github.com/topics/git
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg
+      - name: GitHub
+        web_url: https://github.com/topics/github
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg
+      - name: GitHub Actions
+        web_url: https://github.com/topics/github-actions
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg
 
-  - name: HTML
-    web_url: https://github.com/topics/html
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/html5/html5-original-wordmark.svg
-
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/css3/css3-original-wordmark.svg
-
-  - name: Bootstrap
-    web_url: https://github.com/topics/bootstrap
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/bootstrap/bootstrap-plain.svg
-
-  - name: Xamarin
-    web_url: https://github.com/topics/xamarin
-    image_url: https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/xamarin.svg
-
-  - name: MySQL
-    web_url: https://github.com/topics/mysql
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/mysql/mysql-original-wordmark.svg
-
-  - name: Oracle
-    web_url: https://github.com/topics/oracle
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/oracle/oracle-original.svg
-
-  - name: Django
-    web_url: https://github.com/topics/django
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/django/django-original.svg
-
-  - name: .NET
-    web_url: https://github.com/topics/donet
-    image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/icons/dot-net/dot-net-original-wordmark.svg
-
-  - name: Hugo
-    web_url: https://github.com/topics/hugo
-    image_url: https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hugo.svg
-
-  - name: Jekyll
-    web_url: https://github.com/topics/jekyll
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jekyll/jekyll.png
-
-  - name: Git
-    web_url: https://github.com/topics/git
-    image_url: https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg
-
-  - name: GitHub
-    web_url: https://github.com/topics/github
-    image_url: https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png
+  - category: Other Tools
+    items:
+      - name: Matplotlib
+        web_url: https://github.com/topics/matplotlib
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg
+      - name: Numpy
+        web_url: https://github.com/topics/numpy
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg
+      - name: Pandas
+        web_url: https://github.com/topics/pandas
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg
+      - name: Docker
+        web_url: https://github.com/topics/docker
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg
+      - name: PyPI
+        web_url: https://github.com/topics/pypi
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pypi/pypi-original.svg
+      - name: PNPM
+        web_url: https://github.com/topics/pnpm
+        image_url: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pnpm/pnpm-original.svg
