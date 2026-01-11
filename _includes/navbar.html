@@ -1,0 +1,160 @@
+<style>
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+  }
+  
+  {% if site.style == 'dark' %}
+  .navbar {
+    background-color: rgba(22, 27, 34, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-name {
+    color: #e6edf3;
+  }
+  
+  .navbar-links a {
+    color: #e6edf3;
+  }
+  
+  .navbar-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-links {
+      background-color: rgba(22, 27, 34, 0.98);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+  {% else %}
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-name {
+    color: #24292f;
+  }
+  
+  .navbar-links a {
+    color: #24292f;
+  }
+  
+  .navbar-links a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-links {
+      background-color: rgba(255, 255, 255, 0.98);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+  {% endif %}
+  
+  .navbar-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+  }
+  
+  .navbar-mobile-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      padding: 1rem;
+    }
+    
+    .navbar-links.active {
+      display: flex;
+    }
+    
+    .navbar-mobile-toggle {
+      display: block;
+      cursor: pointer;
+      padding: 0.5rem;
+      border: none;
+      background: transparent;
+    }
+  }
+</style>
+
+<nav class="navbar" id="navbar">
+  <div class="container-lg px-4 py-3">
+    <div class="d-flex flex-items-center flex-justify-between">
+      <div class="d-flex flex-items-center">
+        <a href="#" class="d-flex flex-items-center no-underline">
+          <img src="{{ user.avatar_url }}" alt="{{ user.name }}" class="navbar-logo mr-3">
+          <span class="f4 text-bold navbar-name">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</span>
+        </a>
+      </div>
+      
+      <div class="d-flex flex-items-center navbar-links" id="navbar-links">
+        {% if site.topics %}
+          <a href="#skills">Skills</a>
+        {% endif %}
+        <a href="#projects">Projects</a>
+        {% unless posts_total == 0 %}
+          <a href="#thoughts">Blog</a>
+        {% endunless %}
+      </div>
+      
+      <div class="d-flex flex-items-center">
+        <button class="navbar-mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+          <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
+            <path fill-rule="evenodd" d="M1 2.75A.75.75 0 0 1 1.75 2h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 2.75zm0 5A.75.75 0 0 1 1.75 7h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 7.75zM1.75 12h12.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  (function() {
+    const navbar = document.getElementById('navbar');
+    const mobileToggle = document.getElementById('mobile-toggle');
+    const navbarLinks = document.getElementById('navbar-links');
+    
+    // Mobile menu toggle
+    mobileToggle.addEventListener('click', () => {
+      navbarLinks.classList.toggle('active');
+    });
+    
+    // Smooth scrolling with offset for navbar
+    document.querySelectorAll('.navbar-links a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          const navbarHeight = navbar.offsetHeight;
+          const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navbarHeight - 20;
+          window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+          navbarLinks.classList.remove('active');
+        }
+      });
+    });
+  })();
+</script>
