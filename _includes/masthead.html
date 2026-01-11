@@ -34,6 +34,18 @@
         {{ user.location }}
       </div>
     {% endif %}
+    {% if user.company %}
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon organization height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Company %}
+        {{ user.company }}
+      </div>
+    {% endif %}
+    {% if user.blog %}
+      <div class="{{ metadata_styles }}">
+        {% octicon link height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Website %}
+        <a href="{% if user.blog contains '://' %}{{ user.blog }}{% else %}https://{{ user.blog }}{% endif %}" {% if site.style == 'dark' %}class="text-white"{% endif %}>{{ user.blog | remove: 'https://' | remove: 'http://' }}</a>
+      </div>
+    {% endif %}
     {% if site.social_media %}
       <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
         {% for account in site.social_media %}
@@ -45,6 +57,22 @@
             </a>
           </div>
         {% endfor %}
+      </div>
+    {% endif %}
+    {% if user.followers or user.public_repos %}
+      <div class="d-flex flex-wrap {% if site.layout == 'stacked' %}flex-justify-center{% endif %} f6 {% if site.style == 'dark' %}text-gray-light{% else %}text-gray{% endif %} mb-3">
+        {% if user.followers %}
+          <div class="mr-4">
+            {% octicon person height:16 class:"mr-1 v-align-middle" fill:{{ icon_color }} aria-label:Followers %}
+            <span class="{% if site.style == 'dark' %}text-white{% endif %}">{{ user.followers }}</span> followers
+          </div>
+        {% endif %}
+        {% if user.public_repos %}
+          <div>
+            {% octicon repo height:16 class:"mr-1 v-align-middle" fill:{{ icon_color }} aria-label:Repositories %}
+            <span class="{% if site.style == 'dark' %}text-white{% endif %}">{{ user.public_repos }}</span> repositories
+          </div>
+        {% endif %}
       </div>
     {% endif %}
     {% if user.hireable %}
