@@ -26,6 +26,13 @@
       </h1>
     </div>
     <div class="{% if site.style == 'dark' %}text-white{% else %}text-gray-dark{% endif %} mb-2 ws-normal">{{ repository.description }}</div>
+    {% if repository.topics.size > 0 %}
+    <div class="mb-2">
+      {% for topic in repository.topics limit:5 %}
+        <a href="https://github.com/topics/{{ topic }}" class="d-inline-block {% if site.style == 'dark' %}bg-blue text-white{% else %}bg-blue-light text-blue{% endif %} rounded-1 px-2 py-1 f6 mr-1 mb-1 no-underline" style="font-weight: 500;">{{ topic }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
     {% if repository.homepage != "" %}
     <div class="{% if site.style == 'dark' %}text-white{% else %}text-gray-dark{% endif %} mb-2 ws-normal">
       <a href="{{ repository.homepage }}" class="{% if site.style == 'dark' %}text-blue{% else %}link-gray{% endif %}">
