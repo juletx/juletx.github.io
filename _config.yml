@@ -1,6 +1,8 @@
 layout: stacked
 style: dark
 
+repository: juletx/juletx.github.io
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata

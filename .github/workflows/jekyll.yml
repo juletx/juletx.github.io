@@ -11,6 +11,11 @@ on:
   push:
     branches: ["master"]
 
+  # Runs on a schedule - once per week on Monday at 05:00 UTC
+  schedule:
+    # Run at 05:00 on Monday
+    - cron: '0 5 * * 1'
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
