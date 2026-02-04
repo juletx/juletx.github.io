@@ -29,7 +29,7 @@ cv:
         area: Language Analysis and Processing
         studyType: PhD
         start_date: 2023
-        end_date: Present
+        end_date: present
         highlights:
           - Working on Improving Language Models for Low-resource Languages
           - Research at HiTZ Basque Center for Language Technology
@@ -61,7 +61,7 @@ cv:
         location: Donostia, Spain
         url: https://hitz.eus/
         start_date: 2023
-        end_date: Present
+        end_date: present
         summary: Research on improving language models for low-resource languages
         highlights:
           - Large Language Models for Basque
@@ -71,19 +71,23 @@ cv:
     Awards:
       - title: Best Resource Paper Award
         authors:
-          - "ACL 2024"
+          - Association for Computational Linguistics
         date: 2024-08-10
         awarder: Association for Computational Linguistics
         url: https://2024.aclweb.org/program/best_papers/#best-resource-paper-awards
-        summary: Award for the paper "Latxa - An Open Language Model and Evaluation Suite for Basque"
+        summary: Award for the paper "Latxa - An Open Language Model and Evaluation Suite for Basque" at ACL 2024
 
       - title: Certificate in Advanced English
+        authors:
+          - Cambridge Assessment English
         date: 2017-02-01
         awarder: Cambridge Assessment English
         url: https://www.cambridgeenglish.org/cmp/verifiers/
         summary: C1 level English certification
 
       - title: Euskararen Gaitasun Agiria
+        authors:
+          - Eusko Jaurlaritza
         date: 2016-06-24
         awarder: Eusko Jaurlaritza
         url: https://www.euskadi.eus/euskara-tituluen-eta-ziurtagirien-erregistro-bateratua/web01-a2etzeb/eu/
