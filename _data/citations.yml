@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-25'
 papers:
   BDGXAjgAAAAJ:2osOgNQ5qMEC:
-    citations: 48
+    citations: 53
     title: 'Latxa: An open language model and evaluation suite for Basque'
     year: '2024'
   BDGXAjgAAAAJ:8k81kl-MbHgC:
@@ -10,7 +10,7 @@ papers:
     title: 'Challenging the Abilities of Large Language Models in Italian: a Community Initiative'
     year: '2025'
   BDGXAjgAAAAJ:9yKSN-GCB0IC:
-    citations: 300
+    citations: 311
     title: 'NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark'
     year: '2023'
   BDGXAjgAAAAJ:IjCSPb-OGe4C:
@@ -18,7 +18,7 @@ papers:
     title: Grounding Language Models for Compositional and Spatial Reasoning
     year: '2023'
   BDGXAjgAAAAJ:LkGwnXOMwfcC:
-    citations: 0
+    citations: 1
     title: 'Instructing Large Language Models for Low-Resource Languages: A Systematic Study for Basque'
     year: '2025'
   BDGXAjgAAAAJ:MXK_kJrjxJIC:
@@ -30,27 +30,27 @@ papers:
     title: 'BabyBabelLM: A Multilingual Benchmark of Developmentally Plausible Training Data'
     year: '2025'
   BDGXAjgAAAAJ:Tyk-4Ss8FVUC:
-    citations: 27
+    citations: 31
     title: 'Bertaqa: How much do language models know about local culture?'
     year: '2024'
   BDGXAjgAAAAJ:UeHWp8X0CEIC:
     citations: 0
-    title: 'IKER-GAITU: research on language technology for Basque and other low-resource languages'
+    title: 'IKER-GAITU: Research on Language Technology for Basque and Other Low-Resource Languages.'
     year: '2024'
   BDGXAjgAAAAJ:W7OEmFMy1HYC:
     citations: 2
-    title: 'GITA4CALAMITA-Evaluating the Physical Commonsense Understanding of Italian LLMs in a Multi-layered Approach: A CALAMITA Challenge'
+    title: 'GITA4CALAMITA-evaluating the physical commonsense understanding of italian llms in a multi-layered approach: A CALAMITA challenge'
     year: '2024'
   BDGXAjgAAAAJ:Y0pCki6q_DkC:
     citations: 0
-    title: Latxa Euskarazko Hizkuntza-Eredua
+    title: Latxa euskarazko hizkuntza-eredua
     year: '2025'
   BDGXAjgAAAAJ:YsMSGLbcyi4C:
     citations: 1
     title: 'HiTZ at VarDial 2025 NorSID: Overcoming Data Scarcity with Language Transfer and Automatic Data Annotation'
     year: '2025'
   BDGXAjgAAAAJ:d1gkVwhDpl0C:
-    citations: 105
+    citations: 108
     title: Do multilingual language models think better in English?
     year: '2024'
   BDGXAjgAAAAJ:eQOLeE2rZwMC:
@@ -62,7 +62,7 @@ papers:
     title: 'Multimodal Large Language Models for Low-Resource Languages: A Case Study for Basque'
     year: '2025'
   BDGXAjgAAAAJ:qjMakFHDy7sC:
-    citations: 9
+    citations: 10
     title: 'XNLIeu: a dataset for cross-lingual NLI in Basque'
     year: '2024'
   BDGXAjgAAAAJ:u5HHmVD_uO8C:
@@ -70,6 +70,6 @@ papers:
     title: 'ProMeta: softwarearen garapenerako prozesuen definizio eta ezarpenerako sistema metaereduetan oinarrituta'
     year: '2021'
   BDGXAjgAAAAJ:zYLM7Y9cAGgC:
-    citations: 117
+    citations: 130
     title: Lessons from the trenches on reproducible evaluation of language models
     year: '2024'
