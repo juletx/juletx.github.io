@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-25'
+  last_updated: '2026-03-02'
 papers:
   BDGXAjgAAAAJ:2osOgNQ5qMEC:
-    citations: 53
+    citations: 54
     title: 'Latxa: An open language model and evaluation suite for Basque'
     year: '2024'
   BDGXAjgAAAAJ:8k81kl-MbHgC:
@@ -10,7 +10,7 @@ papers:
     title: 'Challenging the Abilities of Large Language Models in Italian: a Community Initiative'
     year: '2025'
   BDGXAjgAAAAJ:9yKSN-GCB0IC:
-    citations: 311
+    citations: 314
     title: 'NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark'
     year: '2023'
   BDGXAjgAAAAJ:IjCSPb-OGe4C:
@@ -26,7 +26,7 @@ papers:
     title: 'BERnaT: Basque Encoders for Representing Natural Textual Diversity'
     year: '2025'
   BDGXAjgAAAAJ:Se3iqnhoufwC:
-    citations: 2
+    citations: 3
     title: 'BabyBabelLM: A Multilingual Benchmark of Developmentally Plausible Training Data'
     year: '2025'
   BDGXAjgAAAAJ:Tyk-4Ss8FVUC:
@@ -50,7 +50,7 @@ papers:
     title: 'HiTZ at VarDial 2025 NorSID: Overcoming Data Scarcity with Language Transfer and Automatic Data Annotation'
     year: '2025'
   BDGXAjgAAAAJ:d1gkVwhDpl0C:
-    citations: 108
+    citations: 111
     title: Do multilingual language models think better in English?
     year: '2024'
   BDGXAjgAAAAJ:eQOLeE2rZwMC:
@@ -70,6 +70,6 @@ papers:
     title: 'ProMeta: softwarearen garapenerako prozesuen definizio eta ezarpenerako sistema metaereduetan oinarrituta'
     year: '2021'
   BDGXAjgAAAAJ:zYLM7Y9cAGgC:
-    citations: 130
+    citations: 131
     title: Lessons from the trenches on reproducible evaluation of language models
     year: '2024'
