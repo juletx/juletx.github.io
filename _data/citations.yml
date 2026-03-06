@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-04'
+  last_updated: '2026-03-06'
 papers:
   BDGXAjgAAAAJ:2osOgNQ5qMEC:
     citations: 54
@@ -10,7 +10,7 @@ papers:
     title: 'Challenging the Abilities of Large Language Models in Italian: a Community Initiative'
     year: '2025'
   BDGXAjgAAAAJ:9yKSN-GCB0IC:
-    citations: 316
+    citations: 317
     title: 'NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark'
     year: '2023'
   BDGXAjgAAAAJ:IjCSPb-OGe4C:
