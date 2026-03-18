@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-11'
+  last_updated: '2026-03-18'
 papers:
   BDGXAjgAAAAJ:2osOgNQ5qMEC:
     citations: 55
@@ -10,7 +10,7 @@ papers:
     title: 'Challenging the Abilities of Large Language Models in Italian: a Community Initiative'
     year: '2025'
   BDGXAjgAAAAJ:9yKSN-GCB0IC:
-    citations: 323
+    citations: 326
     title: 'NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark'
     year: '2023'
   BDGXAjgAAAAJ:IjCSPb-OGe4C:
@@ -18,7 +18,7 @@ papers:
     title: Grounding Language Models for Compositional and Spatial Reasoning
     year: '2023'
   BDGXAjgAAAAJ:LkGwnXOMwfcC:
-    citations: 2
+    citations: 4
     title: 'Instructing Large Language Models for Low-Resource Languages: A Systematic Study for Basque'
     year: '2025'
   BDGXAjgAAAAJ:MXK_kJrjxJIC:
@@ -30,7 +30,7 @@ papers:
     title: 'BabyBabelLM: A Multilingual Benchmark of Developmentally Plausible Training Data'
     year: '2025'
   BDGXAjgAAAAJ:Tyk-4Ss8FVUC:
-    citations: 31
+    citations: 33
     title: 'Bertaqa: How much do language models know about local culture?'
     year: '2024'
   BDGXAjgAAAAJ:UeHWp8X0CEIC:
@@ -70,6 +70,6 @@ papers:
     title: 'ProMeta: softwarearen garapenerako prozesuen definizio eta ezarpenerako sistema metaereduetan oinarrituta'
     year: '2021'
   BDGXAjgAAAAJ:zYLM7Y9cAGgC:
-    citations: 134
+    citations: 139
     title: Lessons from the trenches on reproducible evaluation of language models
     year: '2024'
