@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-18'
+  last_updated: '2026-03-23'
 papers:
   BDGXAjgAAAAJ:2osOgNQ5qMEC:
     citations: 55
@@ -10,7 +10,7 @@ papers:
     title: 'Challenging the Abilities of Large Language Models in Italian: a Community Initiative'
     year: '2025'
   BDGXAjgAAAAJ:9yKSN-GCB0IC:
-    citations: 326
+    citations: 328
     title: 'NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark'
     year: '2023'
   BDGXAjgAAAAJ:IjCSPb-OGe4C:
@@ -18,7 +18,7 @@ papers:
     title: Grounding Language Models for Compositional and Spatial Reasoning
     year: '2023'
   BDGXAjgAAAAJ:LkGwnXOMwfcC:
-    citations: 4
+    citations: 5
     title: 'Instructing Large Language Models for Low-Resource Languages: A Systematic Study for Basque'
     year: '2025'
   BDGXAjgAAAAJ:MXK_kJrjxJIC:
@@ -46,7 +46,7 @@ papers:
     title: Latxa euskarazko hizkuntza-eredua
     year: '2025'
   BDGXAjgAAAAJ:YsMSGLbcyi4C:
-    citations: 1
+    citations: 2
     title: 'HiTZ at VarDial 2025 NorSID: Overcoming Data Scarcity with Language Transfer and Automatic Data Annotation'
     year: '2025'
   BDGXAjgAAAAJ:d1gkVwhDpl0C:
