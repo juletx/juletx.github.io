@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-17'
+  last_updated: '2026-04-27'
 papers:
   BDGXAjgAAAAJ:2osOgNQ5qMEC:
-    citations: 57
+    citations: 58
     title: 'Latxa: An open language model and evaluation suite for Basque'
     year: '2024'
   BDGXAjgAAAAJ:8k81kl-MbHgC:
@@ -10,7 +10,7 @@ papers:
     title: 'Challenging the Abilities of Large Language Models in Italian: a Community Initiative'
     year: '2025'
   BDGXAjgAAAAJ:9yKSN-GCB0IC:
-    citations: 341
+    citations: 345
     title: 'NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark'
     year: '2023'
   BDGXAjgAAAAJ:IjCSPb-OGe4C:
@@ -26,7 +26,7 @@ papers:
     title: 'BERnaT: Basque Encoders for Representing Natural Textual Diversity'
     year: '2025'
   BDGXAjgAAAAJ:Se3iqnhoufwC:
-    citations: 5
+    citations: 6
     title: 'Babybabellm: A multilingual benchmark of developmentally plausible training data'
     year: '2026'
   BDGXAjgAAAAJ:Tyk-4Ss8FVUC:
@@ -38,7 +38,7 @@ papers:
     title: 'IKER-GAITU: Research on Language Technology for Basque and Other Low-Resource Languages.'
     year: '2024'
   BDGXAjgAAAAJ:W7OEmFMy1HYC:
-    citations: 3
+    citations: 4
     title: 'GITA4CALAMITA-evaluating the physical commonsense understanding of italian llms in a multi-layered approach: A CALAMITA challenge'
     year: '2024'
   BDGXAjgAAAAJ:Y0pCki6q_DkC:
@@ -50,7 +50,7 @@ papers:
     title: 'HiTZ at VarDial 2025 NorSID: Overcoming Data Scarcity with Language Transfer and Automatic Data Annotation'
     year: '2025'
   BDGXAjgAAAAJ:d1gkVwhDpl0C:
-    citations: 118
+    citations: 123
     title: Do multilingual language models think better in English?
     year: '2024'
   BDGXAjgAAAAJ:eQOLeE2rZwMC:
@@ -70,6 +70,6 @@ papers:
     title: 'ProMeta: softwarearen garapenerako prozesuen definizio eta ezarpenerako sistema metaereduetan oinarrituta'
     year: '2021'
   BDGXAjgAAAAJ:zYLM7Y9cAGgC:
-    citations: 142
+    citations: 144
     title: Lessons from the trenches on reproducible evaluation of language models
     year: '2024'
