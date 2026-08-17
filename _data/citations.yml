@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-08-17'
 papers:
   BDGXAjgAAAAJ:2osOgNQ5qMEC:
     citations: 68
@@ -10,7 +10,7 @@ papers:
     title: 'Challenging the Abilities of Large Language Models in Italian: a Community Initiative'
     year: '2026'
   BDGXAjgAAAAJ:9yKSN-GCB0IC:
-    citations: 454
+    citations: 463
     title: 'NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark'
     year: '2023'
   BDGXAjgAAAAJ:IjCSPb-OGe4C:
@@ -54,7 +54,7 @@ papers:
     title: 'EleutherAI/lm-evaluation-harness: lm-eval v0. 4.9. 2 Release Notes'
     year: Unknown Year
   BDGXAjgAAAAJ:d1gkVwhDpl0C:
-    citations: 143
+    citations: 145
     title: Do multilingual language models think better in English?
     year: '2024'
   BDGXAjgAAAAJ:eQOLeE2rZwMC:
@@ -78,6 +78,6 @@ papers:
     title: 'ProMeta: softwarearen garapenerako prozesuen definizio eta ezarpenerako sistema metaereduetan oinarrituta'
     year: '2021'
   BDGXAjgAAAAJ:zYLM7Y9cAGgC:
-    citations: 196
+    citations: 197
     title: Lessons from the trenches on reproducible evaluation of language models
     year: '2024'
