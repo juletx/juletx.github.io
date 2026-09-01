@@ -1,10 +1,10 @@
 cv:
   name: Julen Etxaniz
-  label: PhD Student in Language Analysis and Processing
+  label: Postdoctoral Researcher in NLP
   email: juletxara@gmail.com
   location: Donostia, Gipuzkoa, Spain
   image: ""
-  summary: PhD Student in Language Analysis and Processing at HiTZ Center IXA Group EHU. Working on Improving Language Models for Low-resource Languages.
+  summary: Postdoctoral Researcher in NLP at HiTZ Center IXA Group EHU. Working on Improving Language Models for Low-resource Languages.
 
   social_networks:
     - network: X
@@ -29,7 +29,7 @@ cv:
         area: Language Analysis and Processing
         studyType: PhD
         start_date: 2023
-        end_date: present
+        end_date: 2026
         highlights:
           - Working on Improving Language Models for Low-resource Languages
           - Research at HiTZ Basque Center for Language Technology
@@ -57,11 +57,22 @@ cv:
 
     Experience:
       - company: HiTZ Center IXA Group (EHU)
+        position: Postdoctoral Researcher
+        location: Donostia, Spain
+        url: https://hitz.eus/
+        start_date: 2026
+        end_date: present
+        summary: Research on improving language models for low-resource languages
+        highlights:
+          - Large Language Models for Basque
+          - Multilingual evaluation and benchmarks
+          - Natural Language Processing
+      - company: HiTZ Center IXA Group (EHU)
         position: PhD Student
         location: Donostia, Spain
         url: https://hitz.eus/
         start_date: 2023
-        end_date: present
+        end_date: 2026
         summary: Research on improving language models for low-resource languages
         highlights:
           - Large Language Models for Basque

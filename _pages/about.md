@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-PhD Student in Language Analysis and Processing at [HiTZ Center](https://hitz.eus/) [IXA Group](https://ixa.eus/) [EHU](https://www.ehu.eus/en/en-home). Working on **Improving Language Models for Low-resource Languages**. Graduate in Informatics Engineering with speciality in Software Engineering. Master in Language Analysis and Processing.
+Postdoctoral Researcher in NLP at [HiTZ Center](https://hitz.eus/) [IXA Group](https://ixa.eus/) [EHU](https://www.ehu.eus/en/en-home). Working on **Improving Language Models for Low-resource Languages**. Graduate in Informatics Engineering with speciality in Software Engineering. Master in Language Analysis and Processing.
 
 My research interests include:
 

@@ -9,7 +9,7 @@ last_name: Etxaniz
 contact_note: >
   Feel free to contact me via email or connect on LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD Student in Language Analysis and Processing at HiTZ Center IXA Group EHU. Working on Improving Language Models for Low-resource Languages.
+  Postdoctoral Researcher in NLP at HiTZ Center IXA Group EHU. Working on Improving Language Models for Low-resource Languages.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -94,7 +94,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Julen Etxaniz # blog_name will be displayed in your blog page
-blog_description: PhD Student in Language Analysis and Processing
+blog_description: Postdoctoral Researcher in NLP
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
