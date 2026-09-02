@@ -38,4 +38,4 @@ My research interests include:
 - **Multilinguality**
 - **Low-resource Languages**
 
-In this website you will find information about my [publications](/al-folio/publications/), [projects](/al-folio/projects/), [CV](/al-folio/cv/), and more.
+In this website you will find information about my [publications]({{ '/publications/' | relative_url }}), [projects]({{ '/projects/' | relative_url }}), [CV]({{ '/cv/' | relative_url }}), and more.

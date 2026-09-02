@@ -41,7 +41,21 @@ published: true
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_top_langs.liquid username=user %}
+    {% assign locale = site.lang | split: '-' | first %}
+    <div class="repo p-2 text-center">
+      <a href="https://github.com/{{ user }}">
+        <img
+          class="only-light w-100"
+          alt="{{ user }} top languages"
+          src="{{ site.external_services.github_readme_stats_url }}/api/top-langs/?username={{ user }}&theme={{ site.repo_theme_light }}&locale={{ locale }}&layout=compact&langs_count=10&custom_title=Top%20Languages"
+        >
+        <img
+          class="only-dark w-100"
+          alt="{{ user }} top languages"
+          src="{{ site.external_services.github_readme_stats_url }}/api/top-langs/?username={{ user }}&theme={{ site.repo_theme_dark }}&locale={{ locale }}&layout=compact&langs_count=10&custom_title=Top%20Languages"
+        >
+      </a>
+    </div>
   {% endfor %}
 </div>
 
