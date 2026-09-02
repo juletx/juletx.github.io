@@ -52,8 +52,8 @@ repo_trophies:
 # To use a different instance or service for displaying GitHub stats and trophies,
 # update these URLs. These are used in the repository templates.
 external_services:
-  github_readme_stats_url: https://github-readme-stats-juletx.vercel.app
-  github_profile_trophy_url: https://github-profile-trophy-juletx.vercel.app
+  github_readme_stats_url: https://github-stats-extended.vercel.app
+  github_profile_trophy_url: https://github-profile-repo.vercel.app/
 
 # -----------------------------------------------------------------------------
 # al-folio API (v1.x)
