@@ -1,9 +1,8 @@
 # for details on settings, see https://docs.rendercv.com/user_guide/yaml_input_structure/settings/
 settings:
   render_command:
-    # Paths must be relative to _data/cv.yaml
-    design: ../assets/rendercv/design.yaml
-    locale: ../assets/rendercv/locale.yaml
+    # Output paths must be relative to _data/cv.yml. The workflow passes the
+    # design and locale explicitly because those paths resolve from the repo root.
     typst_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
     pdf_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
     markdown_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV.md

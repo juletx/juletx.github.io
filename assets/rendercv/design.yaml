@@ -5,3 +5,7 @@ design:
     size: a4
     show_footer: false
     show_top_note: false
+  typography:
+    alignment: left
+  entries:
+    degree_width: 1.5cm
