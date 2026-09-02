@@ -71,6 +71,9 @@ jobs:
       - name: Run style contract lint 🧷
         run: npm run lint:style-contract
 
+      - name: Check synchronized CV data 📄
+        run: ruby test/cv_data_contract.rb
+
       - name: Install build prerequisites 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick

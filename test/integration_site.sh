@@ -27,8 +27,10 @@ done
 
 grep -q 'Julen Etxaniz' "${tmp_site}/index.html"
 grep -q 'Academic Website' "${tmp_site}/projects/index.html"
-grep -q 'github-readme-stats-juletx.vercel.app/api/top-langs/' "${tmp_site}/repositories/index.html"
+grep -q 'github-stats-extended.vercel.app/api/top-langs/' "${tmp_site}/repositories/index.html"
 grep -q '/assets/css/tailwind.css' "${tmp_site}/index.html"
+grep -q 'Postdoctoral Researcher in NLP' "${tmp_site}/cv/index.html"
+grep -q 'Best Resource Paper Award' "${tmp_site}/cv/index.html"
 if grep -q '/assets/css/bootstrap-compat.css' "${tmp_site}/index.html"; then
   echo "Bootstrap compatibility stylesheet loaded while compatibility is disabled" >&2
   exit 1

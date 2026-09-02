@@ -5,10 +5,12 @@ on:
       - main
       - master
     paths:
+      - ".github/workflows/render-cv.yml"
       - "_data/cv.yml"
       - "assets/rendercv/design.yaml"
       - "assets/rendercv/locale.yaml"
       - "assets/rendercv/settings.yaml"
+      - "requirements.txt"
   workflow_call:
   workflow_dispatch:
 permissions:
@@ -38,11 +40,13 @@ jobs:
             exit 1
           fi
           settings=$(find $rendercv_dir -maxdepth 1 -type f \( -name "settings.yaml" -o -name "settings.yml" \))
-          if [ -z "$settings" ]; then
+          design=$(find $rendercv_dir -maxdepth 1 -type f \( -name "design.yaml" -o -name "design.yml" \))
+          locale=$(find $rendercv_dir -maxdepth 1 -type f \( -name "locale.yaml" -o -name "locale.yml" \))
+          if [ -z "$settings" ] || [ -z "$design" ] || [ -z "$locale" ]; then
             echo "Missing RenderCV config file!"
             exit 1
           fi
-          rendercv render $cv_file --settings $settings
+          rendercv render "$cv_file" --design "$design" --locale-catalog "$locale" --settings "$settings"
           rm assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4

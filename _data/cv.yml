@@ -1,10 +1,11 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Julen Etxaniz
-  label: Postdoctoral Researcher in NLP
+  headline: Postdoctoral Researcher in NLP
   email: juletxara@gmail.com
-  location: Donostia, Gipuzkoa, Spain
-  image: ""
-  summary: Postdoctoral Researcher in NLP at HiTZ Center IXA Group EHU. Working on Improving Language Models for Low-resource Languages.
+  location: Donostia, Basque Country
+  photo:
+  website: https://julenetxaniz.eus
 
   social_networks:
     - network: X
@@ -14,20 +15,16 @@ cv:
     - network: LinkedIn
       username: juletxara
 
-  address:
-    street: Manuel Lardizabal Ibilbidea, 1
-    city: Donostia
-    region: Gipuzkoa
-    postalCode: 20018
-    countryCode: ES
-
   sections:
+    Summary:
+      - Postdoctoral Researcher in NLP at HiTZ Center IXA Group EHU. Working on Improving Language Models for Low-resource Languages.
+
     Education:
       - institution: University of the Basque Country (EHU)
-        location: Donostia, Spain
+        location: Donostia, Basque Country
         url: https://www.ehu.eus/en/en-home
         area: Language Analysis and Processing
-        studyType: PhD
+        degree: PhD
         start_date: 2023
         end_date: 2026
         highlights:
@@ -35,20 +32,20 @@ cv:
           - Research at HiTZ Basque Center for Language Technology
 
       - institution: University of the Basque Country (EHU)
-        location: Donostia, Spain
+        location: Donostia, Basque Country
         url: https://www.ehu.eus/en/en-home
         area: Language Analysis and Processing
-        studyType: Master
+        degree: Master
         start_date: 2021
         end_date: 2022
         highlights:
           - Thesis on Grounding Language Models for Compositional and Spatial Reasoning
 
       - institution: University of the Basque Country (EHU)
-        location: Donostia, Spain
+        location: Donostia, Basque Country
         url: https://www.ehu.eus/en/en-home
         area: Computer Engineering
-        studyType: Degree
+        degree: Degree
         start_date: 2017
         end_date: 2021
         highlights:
@@ -58,11 +55,11 @@ cv:
     Experience:
       - company: HiTZ Center IXA Group (EHU)
         position: Postdoctoral Researcher
-        location: Donostia, Spain
+        location: Donostia, Basque Country
         url: https://hitz.eus/
         start_date: 2026
         end_date: present
-        summary: Research on improving language models for low-resource languages
+        summary: Research on Improving Language Models for Low-resource Languages
         highlights:
           - Large Language Models for Basque
           - Multilingual evaluation and benchmarks
@@ -70,56 +67,44 @@ cv:
 
       - company: HiTZ Center IXA Group (EHU)
         position: PhD Student
-        location: Donostia, Spain
+        location: Donostia, Basque Country
         url: https://hitz.eus/
         start_date: 2023
         end_date: 2026
-        summary: Research on improving language models for low-resource languages
+        summary: Research on Improving Language Models for Low-resource Languages
         highlights:
           - Large Language Models for Basque
           - Multilingual evaluation and benchmarks
           - Natural Language Processing
 
     Awards:
-      - title: Best Resource Paper Award
-        authors:
-          - Association for Computational Linguistics
+      - name: Best Resource Paper Award
         date: 2024-08-10
-        awarder: Association for Computational Linguistics
+        location: Association for Computational Linguistics
         url: https://2024.aclweb.org/program/best_papers/
         summary: Award for the paper "Latxa - An Open Language Model and Evaluation Suite for Basque" at ACL 2024
 
-      - title: Certificate in Advanced English
-        authors:
-          - Cambridge Assessment English
+      - name: Certificate in Advanced English
         date: 2017-02-01
-        awarder: Cambridge Assessment English
+        location: Cambridge Assessment English
         url: https://www.cambridgeenglish.org/cmp/verifiers/
         summary: C1 level English certification
 
-      - title: Euskararen Gaitasun Agiria
-        authors:
-          - Eusko Jaurlaritza
+      - name: Euskararen Gaitasun Agiria
         date: 2016-06-24
-        awarder: Eusko Jaurlaritza
+        location: Eusko Jaurlaritza
         url: https://www.euskadi.eus/euskara-tituluen-eta-ziurtagirien-erregistro-bateratua/web01-a2etzeb/eu/
         summary: Basque language proficiency certificate
 
     Skills:
-      - name: Research
-        level:
-        icon: fa-solid fa-flask
-        keywords: "Natural Language Processing, Large Language Models, Deep Learning, Machine Learning, Multilinguality"
+      - label: Research
+        details: Natural Language Processing, Large Language Models, Deep Learning, Machine Learning, Multilinguality
 
-      - name: Programming
-        level:
-        icon: fa-solid fa-code
-        keywords: "Python, R, Java, JavaScript, PHP, C"
+      - label: Programming
+        details: Python, R, Java, JavaScript, PHP, C
 
-      - name: Web Development
-        level:
-        icon: fa-solid fa-globe
-        keywords: "Hugo, Jekyll, Bootstrap, Tailwind CSS, HTML, CSS"
+      - label: Web Development
+        details: Hugo, Jekyll, Bootstrap, Tailwind CSS, HTML, CSS
 
     Languages:
       - name: Basque
@@ -133,34 +118,28 @@ cv:
 
     Interests:
       - name: Natural Language Processing
-        icon: fa-solid fa-language
-        keywords: "Large Language Models, Multilingual NLP, Low-resource Languages"
+        summary: Large Language Models, Multilingual NLP, Low-resource Languages
 
       - name: Machine Learning
-        icon: fa-solid fa-brain
-        keywords: "Deep Learning, Neural Networks, Transformers"
+        summary: Deep Learning, Neural Networks, Transformers
 
     Certificates:
       - name: Curso de Machine Learning Aplicado con Python
         date: 2020-10-31
-        issuer: Platzi
+        location: Platzi
         url: https://platzi.com/@juletx/curso/1178-scikit/diploma/detalle/
-        icon: fa-solid fa-certificate
 
       - name: Curso de Redes Neuronales en Keras y Scikit-Learn
         date: 2020-10-31
-        issuer: Platzi
+        location: Platzi
         url: https://platzi.com/@juletx/curso/1866-keras-neural-networks/diploma/detalle/
-        icon: fa-solid fa-certificate
 
       - name: Curso Práctico de Regresión Lineal con Python
         date: 2020-10-30
-        issuer: Platzi
+        location: Platzi
         url: https://platzi.com/@juletx/curso/1766-regresion-python/diploma/detalle/
-        icon: fa-solid fa-certificate
 
       - name: Curso de Desarrollo de Apps Móviles
         date: 2020-01-23
-        issuer: Universidad Complutense de Madrid
+        location: Universidad Complutense de Madrid
         url: https://skillshop.exceedlms.com/student/collection/798207-apps
-        icon: fa-solid fa-mobile
