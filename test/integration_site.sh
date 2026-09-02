@@ -29,8 +29,15 @@ grep -q 'Julen Etxaniz' "${tmp_site}/index.html"
 grep -q 'Academic Website' "${tmp_site}/projects/index.html"
 grep -q 'github-readme-stats-juletx.vercel.app/api/top-langs/' "${tmp_site}/repositories/index.html"
 grep -q '/assets/css/tailwind.css' "${tmp_site}/index.html"
-grep -q '/assets/css/bootstrap-compat.css' "${tmp_site}/index.html"
-grep -Eq '#navbar\.navbar-expand-sm \.navbar-collapse-main\{display:flex ?!important;visibility:visible\}' "${tmp_site}/assets/css/main.css"
+if grep -q '/assets/css/bootstrap-compat.css' "${tmp_site}/index.html"; then
+  echo "Bootstrap compatibility stylesheet loaded while compatibility is disabled" >&2
+  exit 1
+fi
+
+if grep -q '/assets/js/bootstrap-compat.js' "${tmp_site}/index.html"; then
+  echo "Bootstrap compatibility runtime loaded while compatibility is disabled" >&2
+  exit 1
+fi
 
 [ ! -e "${tmp_site}/test" ] || {
   echo "test harness leaked into the published site" >&2
