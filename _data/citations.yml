@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-26'
+  last_updated: '2026-09-04'
 papers:
   BDGXAjgAAAAJ:2osOgNQ5qMEC:
     citations: 69
@@ -10,7 +10,7 @@ papers:
     title: 'Challenging the Abilities of Large Language Models in Italian: a Community Initiative'
     year: '2026'
   BDGXAjgAAAAJ:9yKSN-GCB0IC:
-    citations: 475
+    citations: 485
     title: 'NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark'
     year: '2023'
   BDGXAjgAAAAJ:IjCSPb-OGe4C:
@@ -26,13 +26,17 @@ papers:
     title: 'BERnaT: Basque Encoders for Representing Natural Textual Diversity'
     year: '2025'
   BDGXAjgAAAAJ:Se3iqnhoufwC:
-    citations: 9
+    citations: 11
     title: 'Babybabellm: A multilingual benchmark of developmentally plausible training data'
     year: '2026'
   BDGXAjgAAAAJ:Tyk-4Ss8FVUC:
-    citations: 42
+    citations: 43
     title: 'Bertaqa: How much do language models know about local culture?'
     year: '2024'
+  BDGXAjgAAAAJ:ULOm3_A8WrAC:
+    citations: 9
+    title: 'Nlp evaluation in trouble: On the need to measure llm data contamination for each benchmark. arXiv'
+    year: '2023'
   BDGXAjgAAAAJ:UeHWp8X0CEIC:
     citations: 2
     title: 'IKER-GAITU: Research on Language Technology for Basque and Other Low-Resource Languages.'
@@ -54,7 +58,7 @@ papers:
     title: 'EleutherAI/lm-evaluation-harness: lm-eval v0. 4.9. 2 Release Notes'
     year: Unknown Year
   BDGXAjgAAAAJ:d1gkVwhDpl0C:
-    citations: 147
+    citations: 150
     title: Do multilingual language models think better in English?
     year: '2024'
   BDGXAjgAAAAJ:eQOLeE2rZwMC:
@@ -78,6 +82,6 @@ papers:
     title: 'ProMeta: softwarearen garapenerako prozesuen definizio eta ezarpenerako sistema metaereduetan oinarrituta'
     year: '2021'
   BDGXAjgAAAAJ:zYLM7Y9cAGgC:
-    citations: 197
+    citations: 204
     title: Lessons from the trenches on reproducible evaluation of language models
     year: '2024'
